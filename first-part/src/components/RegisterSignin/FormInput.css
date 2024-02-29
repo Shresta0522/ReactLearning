@@ -1,0 +1,16 @@
+.input-box{
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+.formInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    text-size-adjust:  auto;
+    width: 95%;
+    height: 90px;
+    border-radius: 10px;
+    border:none;
+    
+}

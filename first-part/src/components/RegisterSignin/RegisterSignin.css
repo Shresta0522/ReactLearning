@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    margin-top: 10%;
+    background-image: url("../Assets/blue-bg.jpg");
+    background-size:cover;
+
+}
+.container{
+    background-color: white;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+}
+
+.container h1{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.registerForm {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.submitButton {
+    width: 250px;
+    height: 50px;
+    background-color:rgb(51, 75, 198);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 20%;
+    color: white;
+}
