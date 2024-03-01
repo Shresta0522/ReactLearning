@@ -18,6 +18,7 @@ function RegisterSignin() {
         name:"username",
         type:"text",
         placeholder:"Username",
+        errorMessage:"Username should not have any special characters",
         label:"Username",
       },
       {
@@ -25,6 +26,7 @@ function RegisterSignin() {
         name:"email",
         type:"email",
         placeholder:"Email",
+        errorMessage: "Invalid Email address",
         label:"Email",
       },
       {
@@ -39,13 +41,16 @@ function RegisterSignin() {
         name:"password",
         type:"password",
         placeholder:"Password",
+        errorMessage:	 "Passwords must be at least 6 characters long",
         label:"Password",
       },
       {
         id:5,
         name:"confirmPassword",
-        type:"text",
+        type:"password",
         placeholder:"Confirm Password",
+        errorMessage: "Passwords do not match" ,
+        pattern:values.password,
         label:"Confirm Password",
       },
 
