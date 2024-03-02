@@ -1,6 +1,7 @@
 import './RegisterSignin.css';
 import FormInput from './FormInput';
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 
 function RegisterSignin() {
@@ -56,18 +57,12 @@ function RegisterSignin() {
 
     ]
 
-
-    // const fullnameRef = useRef()
-
-    // console.log(fullnameRef)
     console.log();
 
 
   const handleSubmit =(e) => {
     e.preventDefault();
-    // const data = new FormData(e.target)
-    // console.log(Object.fromEntries(data.entries()))
-  }
+}
 
   const onChange =(e) => {
     setValues({...values,[e.target.name]:e.target.value});
@@ -88,8 +83,12 @@ function RegisterSignin() {
               ))}
                 
                 <button className='submitButton' type="submit">Submit</button>
-            </form>   
-
+                
+            </form>  
+            <div className='loginLink'>
+            <h5 >Don't have an account? </h5>
+            <Link to="/login">Login here</Link>
+            </div> 
         </div>
       
     </div>

@@ -10,20 +10,20 @@ body{
 }
 .container{
     background-color: white;
-    width: 700px;
-    height: 700px;
+    width: 650px;
+    height: 650px;
     border-radius: 50%;
 }
 
 .container h1{
-    padding-top: 10%;
+    padding-top: 20%;
     text-align: center;
     color: darkslateblue;
 }
 
-.registerForm {
+.loginForm {
     padding-right: 15%;
-    padding-left: 20%;
+    padding-left: 15%;
 }
 
 .submitButton {
@@ -39,6 +39,6 @@ body{
     color: white;
 }
 
-.loginLink {
+.registerLink {
     text-align: center;
 }

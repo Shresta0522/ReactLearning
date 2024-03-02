@@ -7,7 +7,7 @@ function FormInput(props) {
     <div className='formInput'>
       <label>{label}</label>
       <input className='input-box' {...inputProps} onChange={onChange} required/>
-      <span>{errorMessage}</span>
+      {/* <span>{errorMessage}</span> */}
     </div>
   )
 }

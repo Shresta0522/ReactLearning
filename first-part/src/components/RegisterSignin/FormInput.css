@@ -1,31 +1,32 @@
 .input-box{
-    padding: 18px;
+    padding: 15px;
     margin: 0px 0px;
     border-radius: 10px;
     border:none;
-    background-color: rgb(228, 215, 215);
-    color: rgb(163, 156, 156);
+    background-color: rgb(186, 206, 243);
+    color: rgb(142, 167, 204);
 }
 
 .formInput{
     display: flex;
     flex-direction: column;
     justify-content: center;    
-    text-size-adjust:  auto;
-    width: 95%;
-    height: 90px;
+    width: 80%;
+    height: 75px;
+    padding-left: 40px;
 }
 
 label{
     color: rgb(78, 83, 105);
 }
 
+
+input:invalid ~ span {
+    display: block;
+}
+
 span {
     font-size: 14px;
     color: red;
     display: none;
-}
-
-input:invalid ~ span {
-    display: block;
 }
